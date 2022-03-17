@@ -21,6 +21,11 @@ body {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
+  background-color: purple;
+}
+
+.wrapper h1 {
+  color: white;
 }
 
 header {
@@ -40,6 +45,10 @@ header {
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
+}
+
+.card-header {
+  text-align: center;
 }
 
 .card-header::after {
@@ -74,7 +83,7 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: rgb(0, 156, 60);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
